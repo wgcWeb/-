@@ -1,0 +1,78 @@
+/* pages/recommendSong.wxss */
+.recommendSongContainer .header {
+  width: 100%;
+  position: relative;
+}
+.recommendSongContainer .header image {
+  width: 100%;
+}
+.recommendSongContainer .header .date {
+  width: 200rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+  font-size: 50rpx;
+  text-align: center;
+  border: 4rpx solid #fff;
+  color: #fff;
+  position: absolute;
+  top: 200rpx;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.recommendSongContainer .listContainer {
+  position: relative;
+  top: -30rpx;
+  border-radius: 30rpx 30rpx 0 0;
+  overflow: hidden;
+  padding: 0 20rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  background-color: #fff;
+}
+.recommendSongContainer .listContainer .listHeader {
+  display: flex;
+  justify-content: space-between;
+}
+.recommendSongContainer .listScroll ::-webkit-scrollbar {
+  width: 0 !important;
+  display: none;
+  height: 0 !important;
+  -webkit-appearance: none;
+  background: transparent;
+}
+.recommendSongContainer .listScroll {
+  height: calc(100vh - 560rpx);
+}
+.recommendSongContainer .listScroll .scrollItem {
+  padding: 0 20rpx;
+  margin-bottom: 40rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.recommendSongContainer .listScroll .scrollItem .musicInfo {
+  display: flex;
+  align-items: center;
+}
+.recommendSongContainer .listScroll .scrollItem .musicInfo image {
+  width: 100rpx;
+  height: 100rpx;
+  margin-right: 20rpx;
+  border-radius: 10rpx;
+}
+.recommendSongContainer .listScroll .scrollItem .musicInfo .musicInfo-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100rpx;
+  max-width: 400rpx;
+}
+.recommendSongContainer .listScroll .scrollItem .musicInfo .musicInfo-left text {
+  font-size: 28rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.recommendSongContainer .listScroll .scrollItem .musicInfo .musicInfo-left text:nth-child(2) {
+  font-size: 26rpx;
+}

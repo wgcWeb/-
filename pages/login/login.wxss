@@ -1,0 +1,51 @@
+.container .wrapper {
+  height: 100%;
+}
+.container .wrapper .left-top-sign {
+  font-size: 120rpx;
+  color: #e1e1e1;
+  opacity: 0.3;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.container .wrapper .welcome {
+  font-size: 48rpx;
+  margin: 60rpx 40rpx;
+}
+.container .wrapper .input-content {
+  padding: 20rpx 60rpx;
+}
+.container .wrapper .input-content .input-item {
+  background-color: #f8f8f8;
+  border-radius: 10rpx;
+  margin-bottom: 40rpx;
+  padding: 20rpx;
+  display: flex;
+  flex-direction: column;
+  color: gray;
+}
+.container .wrapper .confirm-btn {
+  width: 80%;
+  background-color: #d43c33;
+  color: #fff;
+  border-radius: 40rpx;
+}
+.container .wrapper .forget-section {
+  width: 100%;
+  text-align: center;
+  padding: 30rpx 0;
+  color: #00aeff;
+}
+.container .register-section {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  padding: 30rpx 0;
+  text-align: center;
+  color: lightslategray;
+}
+.container .register-section text {
+  color: #00aeff;
+}

@@ -1,0 +1,130 @@
+.personalContainer .user-section {
+  position: relative;
+}
+.personalContainer .user-section image {
+  width: 100%;
+  height: 700rpx;
+}
+.personalContainer .user-section .user-info-box {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 200rpx;
+  left: 40rpx;
+}
+.personalContainer .user-section .user-info-box .portrait-box {
+  margin-right: 20rpx;
+}
+.personalContainer .user-section .user-info-box .portrait-box image {
+  width: 120rpx;
+  height: 120rpx;
+  border-radius: 50%;
+}
+.personalContainer .user-section .user-info-box .info-box .username {
+  color: #fff;
+}
+.personalContainer .user-section .vip-card-box {
+  position: absolute;
+  top: 350rpx;
+  margin: 0 40rpx;
+  border-radius: 30rpx;
+  padding: 20rpx;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 84%;
+  height: 280rpx;
+}
+.personalContainer .user-section .vip-card-box .card-box-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40rpx;
+}
+.personalContainer .user-section .vip-card-box .card-box-top .tit text:nth-child(1) {
+  margin-right: 20rpx;
+}
+.personalContainer .user-section .vip-card-box .card-box-top .b-btn {
+  width: 150rpx;
+  height: 50rpx;
+  line-height: 50rpx;
+  text-align: center;
+  border-radius: 30rpx;
+  background-color: #999;
+}
+.personalContainer .user-section .vip-card-box .card-box-bottom {
+  display: flex;
+  flex-direction: column;
+}
+.personalContainer .user-section .vip-card-box .card-box-bottom text:nth-child(1) {
+  margin-bottom: 25rpx;
+}
+.personalContainer .cover-container {
+  padding: 20rpx 40rpx;
+  background-color: #f1f1f1;
+  position: relative;
+  top: -160rpx;
+}
+.personalContainer .cover-container .nav-section {
+  display: flex;
+  justify-content: space-around;
+  background-color: #fff;
+  border-radius: 10rpx;
+  padding: 10rpx 20rpx;
+  margin-bottom: 20rpx;
+  height: 90rpx;
+}
+.personalContainer .cover-container .nav-section .nav-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.personalContainer .cover-container .nav-section .nav-item text:nth-child(1) {
+  font-size: 40rpx;
+  color: #d43c33;
+}
+.personalContainer .cover-container .nav-section .nav-item text:nth-child(2) {
+  font-size: 28rpx;
+}
+.personalContainer .cover-container .personalContent {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 10rpx;
+}
+.personalContainer .cover-container .personalContent .recentPlayContainer {
+  display: flex;
+  flex-direction: column;
+}
+.personalContainer .cover-container .personalContent .recentPlayContainer text {
+  height: 70rpx;
+  line-height: 70rpx;
+}
+.personalContainer .cover-container .personalContent .recentPlayContainer text:nth-child(1) {
+  padding: 0 20rpx;
+  font-size: 30rpx;
+}
+.personalContainer .cover-container .personalContent .recentPlayContainer text:nth-child(2) {
+  font-size: 34rpx;
+}
+.personalContainer .cover-container .personalContent .recentPlayContainer .recent-scroll {
+  display: flex;
+  height: 200rpx;
+}
+.personalContainer .cover-container .personalContent .recentPlayContainer .recent-scroll .recentItem {
+  margin-right: 20rpx;
+}
+.personalContainer .cover-container .personalContent .recentPlayContainer .recent-scroll .recentItem image {
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 10rpx;
+}
+.personalContainer .cover-container .personalContent .cardList .card-item {
+  padding: 0 20rpx;
+  display: flex;
+  justify-content: space-between;
+  height: 90rpx;
+  line-height: 90rpx;
+  border-top: 1rpx solid #f1f1f1;
+  font-size: 30rpx;
+}

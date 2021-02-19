@@ -1,0 +1,94 @@
+/* pages/index.wxss */
+.indexContainer .banners {
+  width: 100%;
+  height: 300rpx;
+}
+.indexContainer .banners .banner-item image {
+  width: 100%;
+  height: 100%;
+}
+.indexContainer .navContainer {
+  display: flex;
+}
+.indexContainer .navContainer .navItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 20%;
+}
+.indexContainer .navContainer .navItem .iconfont {
+  width: 100rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+  border-radius: 50%;
+  text-align: center;
+  background: #f01313;
+  font-size: 50rpx;
+  color: #fff;
+  margin: 20rpx 0;
+}
+.indexContainer .navContainer .navItem text {
+  font-size: 26rpx;
+}
+.indexContainer .recommendContainer {
+  padding: 20rpx;
+}
+.indexContainer .recommendContainer .recommend-scroll ::-webkit-scrollbar {
+  width: 0 !important;
+  display: none;
+  height: 0 !important;
+  -webkit-appearance: none;
+  background: transparent;
+}
+.indexContainer .recommendContainer .recommend-scroll {
+  display: flex;
+  height: 300rpx;
+}
+.indexContainer .recommendContainer .recommend-scroll .scroll-item {
+  width: 200rpx;
+  margin-right: 20rpx;
+}
+.indexContainer .recommendContainer .recommend-scroll .scroll-item image {
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 10rpx;
+}
+.indexContainer .recommendContainer .recommend-scroll .scroll-item text {
+  font-size: 26rpx;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+.indexContainer .topList {
+  padding: 20rpx;
+}
+.indexContainer .topList .toListSwiper {
+  height: 430rpx;
+}
+.indexContainer .topList .toListSwiper .swiper-item {
+  background-color: #fbfbfb;
+}
+.indexContainer .topList .toListSwiper .swiper-item .title {
+  font-size: 30rpx;
+  line-height: 80rpx;
+}
+.indexContainer .topList .toListSwiper .swiper-item .music-item {
+  display: flex;
+  margin-bottom: 20rpx;
+}
+.indexContainer .topList .toListSwiper .swiper-item .music-item image {
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 6rpx;
+}
+.indexContainer .topList .toListSwiper .swiper-item .music-item .count {
+  width: 100rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+  text-align: center;
+}
+.indexContainer .topList .toListSwiper .swiper-item .music-item .music-name {
+  height: 100rpx;
+  line-height: 100rpx;
+}
